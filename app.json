@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Restaurant POS",
+    "slug": "restaurant-pos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourname.restaurantpos"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "replace-this-with-your-project-id"
+      }
+    }
+  }
+}
